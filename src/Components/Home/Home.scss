@@ -1,0 +1,144 @@
+@import "../../Assets/fonts.scss";
+
+.box{
+    max-width: 1110px;
+    width: 100%;
+}
+
+.box__hero {
+    margin-bottom: 50px;
+}
+
+.box__hero__top{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: auto;
+    transition: 1s;
+    margin-bottom: 28px;
+    padding-right: 40px;
+}
+
+.box__hero__img{
+    display: flex;
+    align-items: center;
+}
+
+.box__hero-img{
+    margin-right: 20px;
+}
+
+.box__hero__title{
+    margin: 0;
+    margin-right: 19px;
+    height: 33px;
+    left: 16.93%;
+    right: 76.04%;
+    top: calc(50% - 33px/2 - 460.5px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #19202C;
+}
+
+.home__item__text {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202C;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.home__info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #C2C2C2;
+
+    p {
+        margin: 0;
+    }
+
+}
+
+.box__left-img{
+    margin-right: 10px;
+}
+
+.home__item-img{
+    border-radius: 14px;
+}
+
+.home__list{
+    display: flex;
+    overflow-x: auto;   
+}
+
+
+.home__item-top{
+    &+&{
+        margin-left: 40px;
+
+    }
+}
+
+.home__item-middle{
+    &+&{
+        margin-left: 40px;
+    }
+}
+
+.home__item-bottom{
+    &+&{
+        margin-left: 40px;
+    }
+}
+
+.box__hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box__hero__title {
+    font-family: 'Mulish';
+}
+
+.box__hero__span{
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+}
+
+.box__middle {
+    margin-bottom: 60px;
+}
+
+.arrow__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    
+    span {
+        cursor: pointer;
+    }
+}
+
+.home__item__photo {
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
